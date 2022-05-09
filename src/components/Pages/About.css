@@ -1,0 +1,15 @@
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+
+  .about-section div{
+      text-align: center;
+      text-overflow: ellipsis;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: larger;
+  }
+
+  
