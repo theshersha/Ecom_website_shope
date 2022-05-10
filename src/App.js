@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "./components/Layout/Header";
 import AvailableItems from "./components/Items/availableItems";
+import ContactUs from "./components/Pages/ContactUs";
 import { useState } from "react";
+
 import "./App.css";
 import CartProvider from "./store/CartProvider";
 import Cart from "./components/Cart/Cart";
@@ -18,9 +20,22 @@ function App() {
   const closeCartHandler = () => {
     setCartState(false);
   };
-  const openAboutPageHandler = () => {
-    setAboutPathState("about");
-  };
+
+  
+  async function onAddDataHandler(contactdata) {
+    const response = await fetch('https://jasmin-ecommerce-default-rtdb.firebaseio.com/contact.json', {
+      method: 'POST',
+      body: JSON.stringify(contactdata),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+    const data = await response.json();
+    console.log(data);
+  }
+ 
+
+
   return (
     <CartProvider>
       {cartState && <Cart onClose={closeCartHandler}></Cart>}
@@ -33,6 +48,10 @@ function App() {
       </Route>
       <Route path='/home'>
         <HomeItemList />
+      </Route>
+      <Route path='/contact-us'>
+        <ContactUs onAddData={onAddDataHandler}></ContactUs>
+       
       </Route>
 
     </CartProvider>

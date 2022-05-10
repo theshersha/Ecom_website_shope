@@ -8,10 +8,11 @@ const Header = props =>{
     return (
         <Fragment>
           <header className='header'>
-            <h1>Fancy Hub</h1>
+            <h1>Fashion Hub</h1>
             <NavLink to='/home' activeClassName='active'><Button>Home</Button></NavLink>
             <NavLink to='/store' activeClassName='active'><Button>Store</Button></NavLink>
             <NavLink to='/about' activeClassName='active'><Button >About Us</Button></NavLink>
+            <NavLink to='/contact-us' activeClassName='active'><Button >Contact Us</Button></NavLink>
             <HeaderCartButton onOpen={props.onOpen}/>
 
           </header>

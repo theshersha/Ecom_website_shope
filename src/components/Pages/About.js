@@ -6,31 +6,30 @@ const AboutPath = () => {
     <Fragment>
       <div class="about-section">
         <h1>About Us Page</h1>
-        <p>This page tells more about us.</p>
+        <p>This Website is developed by Jasmin Korat.</p>
         <div>
-          Shopping has become a happy experience that we will seldom want to forego.
-          Be it the pop-culture portrayal or the never-ending sales, no one leaves a
-          store with just a loaf of bread. Money may not be able to buy happiness, but
-          it can surely get you started on fashion.
-
-          Shopping has almost become an art,and not everyone has the talent to buy the right things.
-          As your shopping buddies grow,it is always better to have some quotes about shopping handy.
-          The most certain way to succeed is always to try just one.
-          Let us live for the beauty of our own reality.
-        
-          Shopping is a bit of a relaxing hobby for me, which is sometimes troubling for the bank balance.
-          Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one.
-          Let us live for the beauty of our own reality.Shopping has become a happy experience
-          that we will seldom want to forego.Be it the pop-culture portrayal or the never-ending
-          sales, no one leaves a store with just a loaf of bread.
-          
-           Money may not be able to buy happiness,but it can surely get you started on fashion.
-           Shopping has almost become an art,and not everyone has the talent to buy the right things. 
-           As your shopping buddies grow,it is always better to have some quotes about shopping handy.
-           Shopping is a bit of a relaxing hobby for me,which is sometimes troubling for the bank balance.
-           
-
+        Lorem ipsum carrots enhanced rebates. Excellent sayings of a man of
+        sorrows, hates no prosecutors will unfold in the enduring of which were
+        born in it? Often leads smallest mistake some pain main responsibilities
+        are to stand for the right builder of pleasure, accepted explain up to
+        now. , The things we are accusing of these in the explication of the
+        truth receives from the flattery of her will never be the trouble and
+        they are refused to the pleasures and the pleasures of the pain, explain
+        the treatment of excepturi of the blessed sufferings. I never said will
+        unfold in him receives at another time he may please the one that those
+        works, we are less than they, this refused to the pleasures of deleniti?
+        Those are! Will unfold in times of pleasure, this pain will be a right
+        enjoyed by corrupt, are accusing him of all pleasures, and seek his own,
+        or, to the needs of the agony of the choice. We hate the fellow. Lorem
+        ipsum dolor, sit amet consectetur rebates. The distinction, that arise
+        from or to. The greater, therefore, an obstacle to the duties of the
+        debts receives the very great importance to us that these are consequent
+        to that question is answered, which was selected for the fault, it is
+        often one of us, however, have any! Moreover, this is often not at once
+        take the hardships of the life of harsh condemn, we are accusing him?
+        Him whom something large cisterns.
         </div>
+        
       </div>
     </Fragment>
   );
